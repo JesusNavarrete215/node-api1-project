@@ -1,4 +1,3 @@
-// BUILD YOUR SERVER HERE
 const express = require("express");
 const User = require("./users/model");
 const server = express();
@@ -101,4 +100,4 @@ server.get("/api/users/:id", (req, res) => {
     });
 });
 
-module.exports = server; // Export your server instead of {}
+module.exports = server; 
